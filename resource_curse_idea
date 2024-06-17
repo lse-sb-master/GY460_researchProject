@@ -1,0 +1,129 @@
+resource curse
+
+1. DID between train stations that had coal fields around and that did not. (1800s to 2010s)
+> requirement: homogenity of the y variable (economic prosperity)
+> parallel assumption: through comparision of 1851 - 1871
+
+2. DID between continuous coal industry and cities with early closure (Swansea, Wales / Barnsley, England)
+
+3. IV (?)
+
+
+mining area:
+https://mapapps2.bgs.ac.uk/coalauthority/home.html
+
+mining list:
+https://en.wikipedia.org/wiki/List_of_coal_mines_in_the_United_Kingdom
+
+wiki area:
+https://en.wikipedia.org/wiki/Coal_mining_in_the_United_Kingdom
+
+still opening:
+https://www.nsenergybusiness.com/features/coal-mining-uk/
+
+
+coal authority:
+https://www.gov.uk/guidance/using-coal-mining-information#available-coal-authority-data
+
+
+
+Normal ideas:
+
+1. Impact of Historical Transportation Infrastructure on Modern Economic Outcomes
+Research Question: How do historical transportation infrastructures (like train stations, train routes, and ports from 1851-1881) impact modern economic outcomes in 2021?
+
+Methodology:
+
+Instrumental Variable (IV): Use the historical location of train stations, train routes, and ports as instruments to study their impact on modern economic outcomes such as employment numbers, enterprise numbers, and population growth in 2021.
+Instruments: Historical train stations, train routes, and ports.
+Outcome Variables: Employment numbers, enterprise density, and population growth in 2021.
+Control Variables: Geology, historical economic activity (using 1851-1881 Census and Enterprise data), and other relevant factors.
+
+
+2. Effect of Proximity to Historic Ports on Population Growth and Economic Activity
+Research Question: Does proximity to historic ports (from 1851-1881) affect population growth and economic activity in nearby districts in 2021?
+
+Methodology:
+
+Difference-in-Differences (DiD): Compare districts close to historic ports with those further away over time, from historic periods (1851-1881) to the present (2021).
+Treatment Group: Districts within a certain distance from historic ports.
+Control Group: Districts farther from historic ports.
+Pre-Treatment Period: Data from 1851-1881.
+Post-Treatment Period: Data from 2021.
+Outcome Variables: Changes in population growth, employment numbers, and enterprise numbers.
+
+
+
+3. Impact of Historical Shipping Routes on Modern Enterprise Distribution
+Research Question: How do historical shipping routes (1851-1881) influence the distribution and density of enterprises in 2021?
+
+Methodology:
+
+Instrumental Variable (IV): Use historical shipping routes as instruments to examine their impact on the modern distribution and density of enterprises.
+Instruments: Historical shipping routes.
+Outcome Variables: Modern enterprise density and distribution.
+Control Variables: Geology, historical enterprise data, and other socioeconomic factors.
+
+
+
+4. Influence of Historical ConPar on Current Social and Economic Indicators
+Research Question: What is the long-term impact of historical ConPar on current social and economic indicators in 2021?
+
+Methodology:
+
+Difference-in-Differences (DiD): Assess the impact of historical ConPar (1851-1881) on modern social and economic indicators by comparing regions with high ConPar activity to those with low or no ConPar activity.
+Treatment Group: Regions with significant historical ConPar activity.
+Control Group: Regions with little or no historical ConPar activity.
+Pre-Treatment Period: Historical data from 1851-1881.
+Post-Treatment Period: Modern data from 2021.
+Outcome Variables: Modern social indicators (e.g., education levels, health statistics) and economic indicators (e.g., income levels, employment rates).
+
+
+
+5. Effect of Historical Train Stations on Modern Urbanization Patterns
+Research Question: How have historical train stations (1851-1881) influenced modern urbanization patterns and population density in 2021?
+
+Methodology:
+
+Instrumental Variable (IV): Use historical train stations as instruments to study their effect on modern urbanization patterns and population density.
+Instruments: Historical train stations.
+Outcome Variables: Modern urbanization patterns, population density.
+Control Variables: Geology, historical population density, and other relevant socioeconomic factors.
+
+
+
+
+
+
+
+Research Question:
+How do historical transportation infrastructures (like train stations, train routes, and ports from 1851-1881) impact modern economic outcomes in 2021?
+
+Methodology: Instrumental Variable (IV)
+Variables:
+Outcome Variable (
+𝑌
+Y):
+
+Modern economic outcomes, such as:
+Employment numbers in 2021 by districts.
+Enterprise density (number of enterprises per area) in 2021 by districts.
+Population growth from historical data to 2021.
+Treatment Variable (
+𝑋
+X):
+
+Historical transportation infrastructure from 1851-1881, such as:
+Proximity to historical train stations.
+Density of historical train routes.
+Proximity to historical port locations.
+Instrumental Variables (
+𝑍
+Z):
+
+Geological attributes as exogenous factors, since these are likely to influence the location of historical infrastructure but not directly affect modern economic outcomes:
+Geological features such as soil quality, mineral deposits, and elevation.
+Distance to natural resources.
+Historical factors that influenced infrastructure placement but are independent of current economic outcomes:
+Historical population density in 1851-1881.
+Historical economic activity as reflected in 1851-1881 Census data.

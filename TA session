@@ -1,0 +1,56 @@
+first, we rerun with right parameters... and then if there isn't any difference in between..  
+
+1. covert to right label dataset >> there is no difference between full and ori
+>> pros: higher accuracy 
+>> cons: added features has no meaning + occurence prediction cannot be used..
+
+2. disregard the 10 time experiment and use the best tuned accuracy only 
+>> pros: more narrative
+>> cons: fraud
+
+
+
+1) we have high accuracy 
+2) we suggested our own model (travelnet)
+3) concluding new features didn't help much but.. we tried at least
+4) occurence accuracy can improved by balancing dataset I suppose...
+
+
+
+-----------------agenda---------------
+1) drop occurence from the report
+2) Improving travelnet > sunbin's trial
+3) MLP is only using node features / no point of graph >> try degrading >> omitting >> sunbin's
+4) 10 times run > emma report writing
+
+
+
+-------------------------------------------------------
+
+1. do not fix the errors and pretend as if we have over 90 percent accuracy >> risk is.. all models are giving similar outputs.. 
+2. admit our mistakes and report null accuracy > minwei says "NEVER" >> pass grade 100%
+
+
+3. run with the corrected code, just report the tunned value (78~80%) without 10 times repetition and without null accuracy >> severity + without reporting null accuracy
+
+-------------------------------------------------------------------
+1. run all again with correct codes + new dataset > if.. models are 
+
+
+
+-----------------------------------------------------------------
+
+1) bigger dataset works slightly better than the original dataset > it is slight difference but it is consistent across multiple models. 
+2) if GGB works better than others..
+>> showed potential for further research
+
+
+agenda:
+0) OMIT MLP
+1) keep the tone of "displayed potential to improve with bigger dataset and larger computing power (across multiple models)"
+2) code integration - 
+3) report proof read & integration
+4) one more paragraph in model experiment part 
+5) one more paragraph for time complexity (+computing complexity) report - Sunbin?
+6) feature extraction - angular directional elevational features part - Sunbin?
+7) explainable variables - Kon?

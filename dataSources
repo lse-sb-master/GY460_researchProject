@@ -1,0 +1,80 @@
+Local authorities boundaries
+Used for: the boundary of the districts. the spatial unit used and basis of all analysis.
+Reason:  it was choosen because some dataset such as ONS local indicators were only available at this level.
+Link: https://statistics.ukdataservice.ac.uk/dataset/2011-census-geography-boundaries-local-authorities
+Explanation: Local Authority is a generic term used to cover London Boroughs, Metropolitan Districts, Non-Metropolitan Districts, and Unitary Authorities in England; Unitary Authorities in Wales; Council Areas in Scotland; and Local Government Districts in Northern Ireland.
+
+The Local Authorities area list contains 404 areas of the following constituent geographies:
+
+36 Metropolitan Districts in England
+201 Non-Metropolitan Districts in England
+31 London Boroughs in England
+54 Unitary Authorities in England
+26 Local Government Districts in Northern Ireland
+32 Council Areas in Scotland
+22 Unitary Authorities in Wales
+2 Census Merged Districts in England
+Please visit ONS Beginner's Guide to UK Geography for more info.
+
+The boundaries are available as either extent of the realm (usually this is the Mean Low Water mark but in some cases boundaries extend beyond this to include off shore islands) or clipped to the coastline (Mean High Water mark).
+
+
+
+Geology: BGS Geology 625K
+Used for: Geological factors 
+Link: https://www.bgs.ac.uk/datasets/bgs-geology-625k-digmapgb/
+Explanation: The BGS Geology datasets are digital geological maps of Great Britain based on the different series of published BGS geological maps. We currently offer digital data at four key scales. The larger-scale maps provide detail for site-specific use; the medium- to small-scale maps provide national coverage. Ongoing revisions from our survey activities are updated on a regular basis. BGS Geology 625k: This generalised digital geological dataset is based on our published ‘poster’ maps of the UK (north and south). This dataset covers all of Great Britain and includes additional map data from Northern Ireland. It provides an excellent national overview of the UK’s geology and is commonly used as a teaching resource. This data is made available under the Open Government Licence, subject to the following acknowledgement accompanying the reproduced BGS materials: ‘Contains British Geological Survey materials © UKRI [year]’.
+
+
+
+Major cities: Major Towns and Cities (December 2015) Boundaries EW BGG (V2), Office for National Statistics
+Used for: to generate a dummy variable of major city > which can largely affect the economic prosperity
+Link: https://geoportal.statistics.gov.uk/datasets/ons::major-towns-and-cities-december-2015-boundaries-ew-bgg-v2/about
+Explanation: This file contains the digital vector boundaries for the Major Towns and Cities in England and Wales, as at December 2015. Version 2 includes centroid data in the attributes table.
+The boundaries available are: (BGG) Generalised Grid (50m) - clipped to the coastline (Mean High Water mark).
+
+
+
+Mine entires: The Coal Authority
+https://www.gov.uk/government/organisations/the-coal-authority/about
+Explanation: The Coal Authority manages the effects of past coal mining, including subsidence damage claims which are not the responsibility of licensed coal mine operators. It deals with mine water pollution and other mining legacy issues.
+It also owns, on behalf of the country, the majority of the coal in Britain, and licenses coal mining.
+We use our skills to provide services to other government departments and agencies, local governments and commercial partners.
+We contribute to the delivery of the UK Government’s Industrial Strategy and the environmental, social and economic priorities of the UK, Scottish and Welsh Governments.
+By sharing our knowledge and expertise we support them, and our partners, to create cleaner, greener nations for us all.
+
+
+
+2021, 2022 local indicators:
+Used for: Current level of economic prosperity. 1) Gross value added per hour worked - Estimated value of goods and services produced per hour worked 2) Active businesses - Businesses with turnover or employment in current year 3) Gross median weekly pay
+Average weekly pay based on where people live
+Reason: official statistics offered by ONS at Local authorities level. 
+Link: https://explore-local-statistics.beta.ons.gov.uk/indicators
+Explanation: 
+These pages are part of the Explore Subnational Statistics (ESS) service.
+The vision for the ESS service was launched in the GSS subnational data strategy, which provides a framework to guide the UK Government Statistical Service (GSS) in producing and disseminating subnational statistics in a more timely, granular and harmonised way.
+The ESS service aims to provide one place for users to find, visualise, compare and download subnational statistics by standardised geographies and customer-defined areas.
+
+
+
+BBCE: entrepreneur statistics for 1800s. 
+Used for: number of entrepreneur at RSD at registration sub-districts RSDs level. It was used to measure the economic prosperity in 1800s for each districts. 
+Link: 
+https://www.bbce.uk/atlas/n_entstot/1851/#7/53.035/-1.082/bartholomew
+https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=8600
+Explanation: The British Business Census of Entrepreneurs - BBCE - is the primary source for large scale information on the business population of entrepreneurs in Victorian and Edwardian Britain. It identifies every self-employed person listed in the censuses for England and Wales 1851-1911, and Scotland 1851-1901, and their employment status as employer, proprietor with no employees, or company director. For employers 1851-81 BBCE also gives the workforce size of their businesses. BBCE is a data deposit at the UK Data Archive Service [SN 8600], as an open access resource for non-commercial research purposes. This BBCE site provides the BBCE User Guide, an Atlas of Entrepreneurship, introductory and tutorial materials, updates, additional downloads of data, and documentation essential for accurate use of BBCE and interpretation. An online Atlas is provided to help users identify specific areas, to help refine research questions, and as a teaching aid
+
+The BBCE allows users to estimate and interpret the development of entrepreneurship, small businesses, and firm-size distribution. The definitions and format of the data for 1851-1911 have been aligned with modern SME data so that users can investigate continuities, persistence and change from the 19th century to the present-day: as developed in The Age of Entrepreneurship. The Atlas has a brief Guide on the Overview page.
+
+As with any historical source the data have imperfections: comments on any gaps are welcomed.
+
+The data identify individuals who can be mapped in a variety of geographical units (parishes, registration sub-districts (RSDs), urban units, counties and upwards). The maps and Atlas on this site use RSDs in England and Wales, and continuous parishes in Scotland; all downloads and maps here are weighted for archival loss in 1861 (E&W) and census non-response bias in 1891-1911.
+
+
+
+
+IPUMS: census data for 1800s 
+Used for: 
+Link: https://international.ipums.org/international/
+Explanation: What is IPUMS?
+IPUMS provides census and survey data from around the world integrated across time and space. IPUMS integration and documentation makes it easy to study change, conduct comparative research, merge information across data types, and analyze individuals within family and community context. Data and services available free of charge.

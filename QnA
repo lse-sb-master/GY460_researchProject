@@ -1,0 +1,60 @@
+1. Research question and hypotheses
+- past industrial agglomeration, transportation approximity >> current industrial agglomeration
+- past industrial agglomeration, transportation approximity >> current economic performance, urban density (even coal 'resource curse')
+
+x: 
+indep 1. approximity to major transportation infrastructure
+indep 2. Historical Industrial Agglomeration YN
+indep 3. coal industry YN
+indep 4. interaction variable with 2 and 3
+
+control: 
+control 3. geographical features (ConPar, geology, etc)
+control 4. Historical Population Density
+control 5. Historical Education Levels
+control 6. Other contemporary factors (control variables - current urbanization level, modern infrastructure)
+
+y: 
+dep 1. Economic Performance, Environmental Quality(?)
+dep 2. current industrial agglomeration
+
+
+2. Methods you intend to use
+Perform the below with different aggregation level based on average / median value
+- Weights for approximity to transportation: 
+1) get inverse value of distance to nearby railway stations/ports in 19th century
+2) sum up those values trying different coefficients with railway and ports ********Question*******
+
+
+doesn't have to be physical approximity >> weights can be economic values such as occupational ratio, population rank, and etc. > deciding cutoff? context check (common sense) or robustness check(?)
+
+napolean era ports:: the ports are built by this era for war, it is rather new::  causes decline of the population :: does this affect future population >> "Fighting for growth labor scarcity and technological progress during the british industial revolution
+
+random distruction of the ports:: does this affect future performance?
+
+
+- Historical Industrial Agglomeration:
+1) get proximity from Industrial Agglomeration / coal agglomeration  ********Question*******
+2) mark y or n in individual data points (industrial agglomeration YN + coal agglomeration YN)
+
+
+
+3. Data sources
+
+
+
+Extra questions: 
+1. how do you address MAUP problem and ecological fallacy? Once you have different coefficients with different aggregation levels, you just think about this and decide what to use? (not very important in this project, but if you have time, you can take a look) >> just do robustness check enlarging the boundary of the 'district'
+2. How can I obtain weights for, for example, education level and transportation infrastructure?
+
+
+#############casusality proof################# 
+did / iv / regression discontinuity
+
+> did - at least you need two pre-trends.. which is hard for flat_datapack - if.. parallel assumption- you have to have a very strong assumption about this
+> iv to proximity to infrastructure - distance to london, transport, costline
+boundary relevant to this(?) >> 
+> American review : russian science cities : reference paper (union of cities.. > collapse of so union > ..)
++ gold rush case
+
+> look over reference papers in our course -> get assumptions from those (IV or.. anything)

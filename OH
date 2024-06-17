@@ -1,0 +1,46 @@
+1. DID between train stations that had coal fields around and that did not. (1800s to 2010s)
+> requirement: homogenity of the y variable (economic prosperity)
+> parallel assumption check: through comparision of 1851 - 1871
+
+
+2. DID between continuous coal industry and cities with early closure (Swansea, Wales / Barnsley, England + yorkshrie(?))
+
+>> heavy industries large establishments (metal..) > less enterpreneurships 
+vs small industries > bigger enterpreneurships
+19th centuries vs 20th centuries 
+enterpreneurships are inherited.. and relevant to enterpreneurships
+enterpreneurships index? Olmo silva's work 
+
+find out in google scholar "declining of manufacturing in the UK"
+
+
+3. 
+Y - Economic prosperity(number of entrepreneurs / occupational classification)
+X - transportation approximity 
+IV - slope, 
+exclusion of major cities (ONSA), 
+geology > for the coal distribution. 
+
+
+X, Y
+num of enterprise + classification of occupation
+industrial agglogation (1 level ~ 3 level) >> must be some papers regarding this
+
+
+
+Any advice regarding above?
+
+Is there any dataset I can use other than company number for each district?
+> if I use occupational classification, can I get to decide the standard for the class?
+>> any relevant papers you recommend?
+
+I couldn't find any data that uses geology for such research above. How can I use the dataset?
+
+Any paper for analyzing resource curse within the UK? (I could not find one)
+
+
+
+Found facts:
+1) RSD - parish - LA: out of 1800 RSDs, 243 RSDs are overlapping between two or more of Local Authorities.  >> need to rule them out or take the majority area of RSD as LA
+2) RSD - number of entrepreneurs; LA - number of business (+ productivity/Gross median weekly pay) >> persuade the need of proxy variable (assuming that entrepreneurs and number of business is correlated (any lits?))
+3) industrial sectors change
